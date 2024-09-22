@@ -1,0 +1,136 @@
+/* General Body Styling */
+body {
+    background-color: #1c1c1c; /* Dark background for the entire page */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure the background covers full height */
+    display: flex;
+    flex-direction: column;
+}
+/* Navbar styling */
+.navbar {
+    background-color: #1c1c1c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e0e0e0 !important;
+    margin-right: 15px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #a0d8a2 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon span {
+    content: "";
+    background-color: #a0d8a2;
+    display: block;
+    width: 1.5em;
+    height: 0.2em;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon::before {
+    top: 0.4em;
+}
+
+.navbar-toggler-icon::after {
+    bottom: 0.4em;
+}
+
+.navbar-toggler-icon span {
+    top: 0.8em;
+}
+
+.navbar-nav .nav-link.active {
+    color: #a0d8a2 !important;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #a0d8a2 !important; 
+    color: #004d00 !important; 
+    border: 1px solid #004d00 !important; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d00 !important; 
+    color: black !important; 
+    border-color: #a0d8a2 !important; 
+}
+
+.btn-primary:active {
+    background-color: #70a070 !important; 
+    color: #e0e0e0 !important; 
+    border-color: #004d00 !important; 
+}
+
+body {
+    background-color: #1c1c1c !important; 
+    color: #e0e0e0 !important; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1c1c1c !important; 
+    
+    
+}
+.card {
+    background-color: #2e2e2e !important;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #a0d8a2;
+    font-size: 1.5em;
+}
+
+.card-text {
+    color: #e0e0e0;
+    font-size: 1em;
+}
+

@@ -1,0 +1,174 @@
+/* General Body Styling */
+body {
+    background-color: #1c1c1c; /* Dark background for the entire page */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure the background covers full height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1c1c1c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e0e0e0 !important;
+    margin-right: 15px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #a0d8a2 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon span {
+    content: "";
+    background-color: #a0d8a2;
+    display: block;
+    width: 1.5em;
+    height: 0.2em;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon::before {
+    top: 0.4em;
+}
+
+.navbar-toggler-icon::after {
+    bottom: 0.4em;
+}
+
+.navbar-toggler-icon span {
+    top: 0.8em;
+}
+
+.navbar-nav .nav-link.active {
+    color: #a0d8a2 !important;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background-color: #1c1c1c; /* Ensure background color matches the body */
+    padding: 50px 0;
+    flex: 1; /* Ensures the section stretches to fill the remaining space */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #a0d8a2;
+    margin-bottom: 30px;
+}
+
+/* Form Control Styling */
+.form-control {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    border: 1px solid #004d00;
+}
+
+.form-control:focus {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    border-color: #a0d8a2;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #a0d8a2;
+    color: #004d00;
+}
+.contact-section{
+    color: #a0d8a2;
+    
+    
+}
+.contact-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-section .col-lg-6 {
+    width: 48%;
+}
+
+.contact-section .contactt {
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+}
+
+.contact-list {
+    color: #a0d8a2;
+}
+/* General Link Styling */
+.contact-section .contactt a {
+    color: #e0e0e0; 
+    text-decoration: none; 
+}
+
+.contact-section .contactt  {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-section row button{
+    color: #a0d8a2;
+}
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #a0d8a2 !important; 
+    color: #004d00 !important; 
+    border: 1px solid #004d00 !important; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d00 !important; 
+    color: black !important; 
+    border-color: #a0d8a2 !important; 
+}
+
+.btn-primary:active {
+    background-color: #70a070 !important; 
+    color: #e0e0e0 !important; 
+    border-color: #004d00 !important; 
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+/* Navbar styling */
+.navbar {
+    background-color: #1c1c1c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e0e0e0 !important;
+    margin-right: 15px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #a0d8a2 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon span {
+    content: "";
+    background-color: #a0d8a2;
+    display: block;
+    width: 1.5em;
+    height: 0.2em;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon::before {
+    top: 0.4em;
+}
+
+.navbar-toggler-icon::after {
+    bottom: 0.4em;
+}
+
+.navbar-toggler-icon span {
+    top: 0.8em;
+}
+
+.navbar-nav .nav-link.active {
+    color: #a0d8a2 !important;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+/* Wildscape image and link styling */
+body {
+    background-color: #1c1c1c; /* Background color to match navbar */
+    color: #e0e0e0; /* Text color */
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #2e2e2e;
+    border: 1px solid #004d00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Updated Video styling */
+.video-container {
+    width: 100%; /* Ensure the container is responsive */
+    max-width: 100%; /* Prevent it from exceeding the width of the page */
+    margin: 0 auto; /* Center the container */
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the container while maintaining the aspect ratio */
+    border-radius: 10px; /* Optional: to match the card style */
+}
+
+/* Styling for the Close Button */
+.modal-body .btn-close {
+    color: rgb(10, 3, 3);
+    background-color: rgb(160, 14, 14); /* Change the background color to red */
+    /* border-radius: 50%; */
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; /* Ensure it's fully visible */
+}
+
+.modal-body .btn-close:hover {
+    background-color: darkred; /* Darker red for hover effect */
+    color: white;
+}
+
+/* Flexbox alignment for horizontal and vertical images */
+.horizontal_image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between images */
+}
+
+.vertical_image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between images */
+}
+/* Ensure the vertical images fit the screen height */
+.vertical_image .card-img-top {
+    height: auto;
+    max-height: 100vh; /* Full viewport height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+  }
+  
+
+  
+  

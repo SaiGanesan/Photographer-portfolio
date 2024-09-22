@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Photo Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sai Ganesan M</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./prints.html">Prints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./wildscape.html">Wildscapes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/sai_ganesan__/"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <button id="signup" class="btn btn-warning btn-md">Sign In</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./photos/Tiger.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Young Princess</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./photos/deer.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Secret Among Flowers</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./photos/leopard.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Leopard Queen</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="quote">
+    <q>Through the lens of wildlife photography, we capture the untamed beauty of nature, preserving moments that
+      inspire us to protect and cherish the wild wonders of our world.</q>
+  </div>
+  
+  <div class="cards">
+    <div class="d-flex justify-content-around flex-wrap">
+      <div class="card" style="width: 18rem;">
+        <img src="./photos/rain deer.jpg" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Prints</h5>
+          <p class="card-text">“Transform your space with timeless art. Every print is a moment captured, a story told,
+            and a masterpiece to cherish forever.”</p>
+          <a href="./prints.html" class="btn btn-primary">Prints</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./photos/monkey.jpg" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Wildscapes</h5>
+          <p class="card-text">“Discover the untamed beauty of nature through our wildlife gallery. Each click unveils a
+            world of wonder and breathtaking moments captured in time.” </p>
+          <a href="./wildscape.html" class="btn btn-primary">Wildscape</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./photos/tiger-nagarhole.jpg" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Blog</h5>
+          <p class="card-text">"Want to know what gears I use! Click here as I share my experience" </p>
+          <a href="./blog.html" class="btn btn-primary">Blogs!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contact" id="Contact">
+    <div class="box1">
+      <h1>Contact</h1>
+      <h3><q>Connecting with us ensures you receive personalized support, answers to your questions, and a pathway to
+          collaboration and growth.</q></h3>
+      <p>
+        <a href="https://www.instagram.com/sai_ganesan__/" target="_blank"><i
+            class="fa-brands fa-square-instagram"></i></a>&nbsp;
+        <a href="mailto:saiganesan04@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>&nbsp;
+        <a href="https://www.threads.net/@sai_ganesan__" target="_blank"><i class="fa-brands fa-threads"></i></a>&nbsp;
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- authentication -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    import { getAuth,signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAylKTG-Lod_HLpUZ8YDESDjcBukV7gET4",
+      authDomain: "photo-portfolio-e62b0.firebaseapp.com",
+      projectId: "photo-portfolio-e62b0",
+      storageBucket: "photo-portfolio-e62b0.appspot.com",
+      messagingSenderId: "898984230003",
+      appId: "1:898984230003:web:6acaa3e908d31f25903e06"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider(app);
+
+
+
+  //   signup.addEventListener("click",(e)=>{
+  //     signInWithPopup(auth, provider)
+  // .then((result) => {
+  //   // This gives you a Google Access Token. You can use it to access the Google API.
+  //   const credential = GoogleAuthProvider.credentialFromResult(result);
+  //   const token = credential.accessToken;
+  //   // The signed-in user info.
+  //   const user = result.user;
+  //   // IdP data available using getAdditionalUserInfo(result)
+  //   // ...
+  // }).catch((error) => {
+  //   // Handle Errors here.
+  //   const errorCode = error.code;
+  //   const errorMessage = error.message;
+  //   // The email of the user's account used.
+  //   const email = error.customData.email;
+  //   // The AuthCredential type that was used.
+  //   const credential = GoogleAuthProvider.credentialFromError(error);
+  //   // ...
+  // });
+  //   })
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const signupButton = document.getElementById("signup");
+
+    // Initial setup: Check if the user is already signed in
+    auth.onAuthStateChanged((user) => {
+        if (user) {
+            // User is signed in, show the "Logout" button
+            signupButton.textContent = "Logout";
+            signupButton.removeEventListener("click", signInHandler);
+            signupButton.addEventListener("click", logoutHandler);
+        } else {
+            // User is signed out, show the "Sign Up" button
+            signupButton.textContent = "Sign In";
+            signupButton.removeEventListener("click", logoutHandler);
+            signupButton.addEventListener("click", signInHandler);
+        }
+    });
+
+    // Function to handle Google Sign-In
+    const signInHandler = (e) => {
+        signInWithPopup(auth, provider)
+            .then((result) => {
+                // Update UI after successful sign-in
+                signupButton.textContent = "Logout";
+                signupButton.removeEventListener("click", signInHandler);
+                signupButton.addEventListener("click", logoutHandler);
+            })
+            .catch((error) => {
+                console.error("Error during sign-in:", error.message);
+            });
+    };
+
+    // Function to handle Google Sign-Out
+    const logoutHandler = (e) => {
+        auth.signOut()
+            .then(() => {
+                // Successful sign-out
+                signupButton.textContent = "Sign In";
+                signupButton.removeEventListener("click", logoutHandler);
+                signupButton.addEventListener("click", signInHandler);
+            })
+            .catch((error) => {
+                console.error("Error during sign-out:", error.message);
+            });
+    };
+});
+
+
+  </script>
+
+</body>
+
+</html>

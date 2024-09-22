@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#1c1c1c ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #1c1c1c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e0e0e0 !important;
+    margin-right: 15px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #a0d8a2 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon span {
+    content: "";
+    background-color: #a0d8a2;
+    display: block;
+    width: 1.5em;
+    height: 0.2em;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon::before {
+    top: 0.4em;
+}
+
+.navbar-toggler-icon::after {
+    bottom: 0.4em;
+}
+
+.navbar-toggler-icon span {
+    top: 0.8em;
+}
+
+.navbar-nav .nav-link.active {
+    color: #a0d8a2 !important;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #a0d8a2;
+}
+
+/* Image Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Caption */
+.gallery-caption {
+    padding: 10px;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #ecf0f1;
+    font-size: 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #bdc3c7;
+}
+.page-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    padding: 30px;
+    margin: 20px auto;
+    border: 2px solid #a0d8a2;
+    border-radius: 12px;
+    font-style: italic;
+    text-align: center;
+    max-width: 800px; /* Adjust based on your design */
+}
+.page-title h1{
+    font-size: large;
+}
+.page-title p{
+   font-size: small;
+}
+
